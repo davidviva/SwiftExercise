@@ -1,0 +1,6 @@
+framework module AZSocketIO {
+  umbrella header "AZSocketIO-umbrella.h"
+
+  export *
+  module * { export * }
+}

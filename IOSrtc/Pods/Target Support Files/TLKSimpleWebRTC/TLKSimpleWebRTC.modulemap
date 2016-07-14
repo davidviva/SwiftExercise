@@ -1,0 +1,6 @@
+framework module TLKSimpleWebRTC {
+  umbrella header "TLKSimpleWebRTC-umbrella.h"
+
+  export *
+  module * { export * }
+}

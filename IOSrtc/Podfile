@@ -1,0 +1,23 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'IOSrtc' do
+pod 'libjingle_peerconnection'
+pod 'TLKWebRTC', :git => 'https://github.com/otalk/TLKWebRTC.git'
+pod 'TLKSimpleWebRTC', :git => 'https://github.com/otalk/TLKSimpleWebRTC.git'
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for IOSrtc
+
+  target 'IOSrtcTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'IOSrtcUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

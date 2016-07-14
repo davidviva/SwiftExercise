@@ -1,0 +1,6 @@
+framework module Pods_IOSrtc {
+  umbrella header "Pods-IOSrtc-umbrella.h"
+
+  export *
+  module * { export * }
+}
